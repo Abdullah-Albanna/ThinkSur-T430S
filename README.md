@@ -3,10 +3,6 @@
 $${\color{red}DO \space IT \space AT \space YOUR \space OWN \space RISK}$$
 **Please follow [Dortania's Guide](https://dortania.github.io/OpenCore-Install-Guide/)** instead
 
-A footnote can also have multiple lines[^2].
-
-
-
 ## My Spec:
  * CPU: Intel® Core™ i7-3520M 
  * GPU: Intel HD Graphics 4000  
@@ -17,7 +13,7 @@ A footnote can also have multiple lines[^2].
  * Ethernet: Intel 82579LM gigabit   
 ## Prerequisites
 - [Python3](https://www.python.org/downloads/)
-- A USB Drive 16GB+
+- A USB Drive 16GB+  
   
 **Windows**
   - [Rufus](https://rufus.ie/en/)
@@ -26,6 +22,7 @@ A footnote can also have multiple lines[^2].
 **MacOS**
   - [gibMacOS](https://github.com/corpnewt/gibMacOS)
   - [MountEFI](https://github.com/corpnewt/MountEFI)
+  - [HeliPort](https://github.com/OpenIntelWireless/HeliPort/releases)(Optional)
 ## How to Install
 1: **Download the EFI from the repository with**:  
 
@@ -102,7 +99,7 @@ A footnote can also have multiple lines[^2].
 
 ## Post Install  
 If you managed to install it successfully then there is things I highly recommend you should do:  
- - Download [HeliPort](https://github.com/OpenIntelWireless/HeliPort/releases), and make it launch at login  
+ - Download [HeliPort](https://github.com/Abdullah-78/BigThink-T430S#prerequisites), and make it launch at login  
    **this enables the wifi**
  - Open the `System Preferences > Keyboard > Shortcuts > Mission Control`
    - **Mission Control** = `Control+Command+Up Arrow`
