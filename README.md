@@ -32,13 +32,13 @@ $${\color{red}DO \space IT \space AT \space YOUR \space OWN \space RISK}$$
 2: **Preparing the USB**:  
 #### **Windows**:  
    - use [Rufus](https://github.com/Abdullah-78/BigThink-T430S#prerequisites) for formatting the USB as a FAT32  
-   ![format-usb-rufus 43feba9e](https://github.com/Abdullah-78/BigThink-T430S/assets/115571443/f58a48e8-4fcf-499a-bfe2-ce7e934eb5a4)
+   ![format-usb-rufus 43feba9e](https://github.com/Abdullah-78/BigThink-T430S/blob/main/Images/format-usb-rufus.43feba9e.png)
 
    - create a folder named `com.apple.recovery.boot` in the root of the USB drive, it should look like this:  
-   ![com-efi-done a6fb730e](https://github.com/Abdullah-78/BigThink-T430S/assets/115571443/2677f74d-1986-4adc-8066-c8d7218f56d5)   
+   ![com-efi-done a6fb730e](https://github.com/Abdullah-78/BigThink-T430S/blob/main/Images/com-efi-done.a6fb730e.jpeg)   
 
   - Open [OpenCorePKG](https://github.com/Abdullah-78/BigThink-T430S#prerequisites), navigate to `/Utilities/macrecovery/`, and open a new cmd from there as shown:
-  ![open-cmd-current-folder 906148d4](https://github.com/Abdullah-78/BigThink-T430S/assets/115571443/bc7332c9-972c-4ad5-94f5-bd947a3c08a6)
+  ![open-cmd-current-folder 906148d4](https://github.com/Abdullah-78/BigThink-T430S/blob/main/Images/open-cmd-current-folder.906148d4.gif)
 
   - Type `python3 macrecovery.py -b Mac-42FD25EABCABB274 -m 00000000000000000 download` **or** `py macrecovery.py -b Mac-42FD25EABCABB274 -m 00000000000000000 download`  
    whatever works for you  
@@ -55,7 +55,7 @@ $${\color{red}DO \space IT \space AT \space YOUR \space OWN \space RISK}$$
 
   Offline Method:
    - Open [gibMacOS](https://github.com/Abdullah-78/BigThink-T430S#prerequisites), double click `gibMacOS.command`, type `I` for printing the urls, and hit enter, you should see       MacOS versions as shown  
-     ![MacOS Versions](https://github.com/Abdullah-78/BigThink-T430S/assets/115571443/8d796450-262d-40a5-8819-f284656da62c)
+     ![MacOS Versions](https://github.com/Abdullah-78/BigThink-T430S/blob/main/Images/MacOS%20Versions.jpeg)
 
    -  look for the latest version for BigSur and type the number accordingly
    -  look for `InstallAssistant.pkg` and copy it's url  
