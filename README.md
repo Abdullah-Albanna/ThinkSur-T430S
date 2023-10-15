@@ -1,5 +1,7 @@
 # BigThink-T430S
-
+**I'm Not Responsible for Anything that Happens to Your Laptop, This EFI is Only for the Lazy people**
+$${\color{red}DO \space IT \space AT \space YOUR \space OWN \space RISK}$$
+**Please follow [Dortania's Guide](https://dortania.github.io/OpenCore-Install-Guide/)** instead
 
 ## My Spec:
  * CPU: Intel® Core™ i7-3520M 
@@ -9,12 +11,18 @@
  * Bluetooth: Broadcam  
  * Audio: ALC269VC Analog  
  * Ethernet: Intel 82579LM gigabit   
+## Prerequisites
+- [Python3](https://www.python.org/downloads/)
+- A USB Drive 16GB+
+  
+**Windows**
+  - [Rufus](https://rufus.ie/en/)
+  - [OpenCorePKG](https://github.com/acidanthera/OpenCorePkg/releases)
 
- _`Note: I'm Not Responsible for Anything that Happens to Your Laptop, Double Check That You Have the Exact Same Laptop`_
-
+**MacOS**
+  - [gibMacOS](https://github.com/corpnewt/gibMacOS)
+  - [MountEFI](https://github.com/corpnewt/MountEFI)
 ## How to Install
-0: **Make sure you have [Python3](https://www.python.org/downloads/) Installed in your system**  
-
 1: **Download the EFI from the repository with**:  
 
     git clone https://github.com/Abdullah-78/BigThink-T430S   
@@ -23,13 +31,13 @@
 
 2: **Preparing the USB**:  
 #### **Windows**:  
-   - use `Rufus` for formatting the USB as a FAT32  
+   - use [Rufus](https://github.com/Abdullah-78/BigThink-T430S/edit/main/README.md#prerequisites) for formatting the USB as a FAT32  
    ![format-usb-rufus 43feba9e](https://github.com/Abdullah-78/BigThink-T430S/assets/115571443/f58a48e8-4fcf-499a-bfe2-ce7e934eb5a4)
 
    - create a folder named `com.apple.recovery.boot` in the root of the USB drive, it should look like this:  
    ![com-efi-done a6fb730e](https://github.com/Abdullah-78/BigThink-T430S/assets/115571443/2677f74d-1986-4adc-8066-c8d7218f56d5)   
 
-  - Downlaod [OpenCorePKG](https://github.com/acidanthera/OpenCorePkg/releases), navigate to `/Utilities/macrecovery/`, and open a new cmd from there as shown:
+  - Downlaod [OpenCorePKG](https://github.com/Abdullah-78/BigThink-T430S/edit/main/README.md#prerequisites), navigate to `/Utilities/macrecovery/`, and open a new cmd from there as shown:
   ![open-cmd-current-folder 906148d4](https://github.com/Abdullah-78/BigThink-T430S/assets/115571443/bc7332c9-972c-4ad5-94f5-bd947a3c08a6)
 
   - Type `python3 macrecovery.py -b Mac-42FD25EABCABB274 -m 00000000000000000 download` **or** `py macrecovery.py -b Mac-42FD25EABCABB274 -m 00000000000000000 download`  
@@ -46,7 +54,7 @@
    - Basicly the same as we did in the _Windows_ method, but the main advantage of a mac is the offline method  
 
   Offline Method:
-   - Downlaod [gibMacOS](https://github.com/corpnewt/gibMacOS), double click `gibMacOS.command`, type `I` for printing the urls, and hit enter, you should see       MacOS versions as shown  
+   - Open [gibMacOS](https://github.com/Abdullah-78/BigThink-T430S/edit/main/README.md#prerequisites), double click `gibMacOS.command`, type `I` for printing the urls, and hit enter, you should see       MacOS versions as shown  
      ![MacOS Versions](https://github.com/Abdullah-78/BigThink-T430S/assets/115571443/8d796450-262d-40a5-8819-f284656da62c)
 
    -  look for the latest version for BigSur and type the number accordingly
@@ -63,7 +71,7 @@
            sudo /Applications/Install\ macOS\ Big\ Sur.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume
        What this has done is copying the OS into your USB
 
-   - Download [MountEFI](https://github.com/corpnewt/MountEFI), double click `MountEFI.command`, you should see an option called `Install MacOS Big Sur`, type the number accordingly, this will mount the EFI partitoin of your USB
+   - Download [MountEFI](https://github.com/Abdullah-78/BigThink-T430S/edit/main/README.md#prerequisites), double click `MountEFI.command`, you should see an option called `Install MacOS Big Sur`, type the number accordingly, this will mount the EFI partitoin of your USB
  
    - Copy the EFI folder into the `EFI` partition
  
