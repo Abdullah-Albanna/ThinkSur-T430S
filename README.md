@@ -22,7 +22,6 @@ $${\color{red}DO \space IT \space AT \space YOUR \space OWN \space RISK}$$
 **MacOS**
   - [gibMacOS](https://github.com/corpnewt/gibMacOS)
   - [MountEFI](https://github.com/corpnewt/MountEFI)
-  - [HeliPort](https://github.com/OpenIntelWireless/HeliPort/releases) (Optional)
 ## How to Install
 1: **Download the EFI from the repository with**:  
 
@@ -99,7 +98,7 @@ $${\color{red}DO \space IT \space AT \space YOUR \space OWN \space RISK}$$
 
 ## Post Install  
 If you managed to install it successfully then there is things I highly recommend you should do:  
- - Download [HeliPort](https://github.com/Abdullah-78/BigThink-T430S#prerequisites), and make it launch at login  
+ - Download [HeliPort](https://github.com/OpenIntelWireless/HeliPort/releases), and make it launch at login  
    **this enables the wifi**
  - Open the `System Preferences > Keyboard > Shortcuts > Mission Control`
    - **Mission Control** = `Control+Command+Up Arrow`
