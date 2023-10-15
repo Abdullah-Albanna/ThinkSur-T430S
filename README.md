@@ -22,7 +22,7 @@ $${\color{red}DO \space IT \space AT \space YOUR \space OWN \space RISK}$$
 **MacOS**
   - [gibMacOS](https://github.com/corpnewt/gibMacOS)
   - [MountEFI](https://github.com/corpnewt/MountEFI)
-  - [HeliPort](https://github.com/OpenIntelWireless/HeliPort/releases)(Optional)
+  - [HeliPort](https://github.com/OpenIntelWireless/HeliPort/releases) (Optional)
 ## How to Install
 1: **Download the EFI from the repository with**:  
 
