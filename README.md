@@ -1,4 +1,4 @@
-# BigThink-T430S
+# ThinkSur-T430S
 **I'm Not Responsible for Anything that Happens to Your Laptop, This EFI is Only for the Lazy people**
 $${\color{red}DO \space IT \space AT \space YOUR \space OWN \space RISK}$$
 **Please follow [Dortania's Guide](https://dortania.github.io/OpenCore-Install-Guide/)** instead
