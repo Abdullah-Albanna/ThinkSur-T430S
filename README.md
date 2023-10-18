@@ -25,7 +25,7 @@ $${\color{red}DO \space IT \space AT \space YOUR \space OWN \space RISK}$$
 ## How to Install
 1: **Download the EFI from the repository with**:  
 
-    git clone https://github.com/Abdullah-78/BigThink-T430S   
+    git clone https://github.com/Abdullah-Abdullah/ThinkSur-T430S   
 
   Or simply download it as a zip from `Code > Download ZIP`  
 
