@@ -27,7 +27,7 @@ $${\color{red}DO \space IT \space AT \space YOUR \space OWN \space RISK}$$
 
     git clone https://github.com/Abdullah-Abdullah/ThinkSur-T430S   
 
-  Or simply download it as a zip from `Code > Download ZIP`  
+  Or simply download from the (releases)[https://github.com/Abdullah-Albanna/ThinkSur-T430S/releases/]
 
 2: **Preparing the USB**:  
 #### **Windows**:  
